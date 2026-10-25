@@ -4,6 +4,21 @@
     /*text colors*/
 
     /*font stacks*/
-
-    
 }
+* {box-sizing: content-box;}
+img {display: block; max-width:70rem; 2rem auto; padding: 0 1rem;}
+
+body{}
+.welcome {
+    border: 1rem;
+    margin: 1rem;
+}
+h1{
+    border: 1rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    background-color: aquamarine;
+}
+h2, h3 {}
+p {}
+
