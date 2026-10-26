@@ -6,25 +6,37 @@
 --lt-grey: #eaeaea;
 --mid-grey: #555;
 --dk-grey: #222;
+--background-color: #b0aac0;
     /*text colors*/
-
+--page-titles: #fff;
     /*font stacks*/
     
 }
 * {box-sizing: content-box;}
 img {display: block; max-width:70rem; 2rem auto; padding: 0 1rem;}
 
-body{}
+body{
+    background-color: var(--background-color);
+    border: 1rem;
+    margin: 1rem;
+}
 .welcome {
     border: 1rem;
     margin: 1rem;
 }
-h1{
-    border: 1rem;
-    margin: 1rem;
-    padding: 1.5rem;
-    background-color: var(--teal);
+.store_name, h1{
+    text-align: center;
+  
 }
-h2, h3 {}
+h1{
+    padding: 1.5rem;
+    background-color: var(--navy);
+    color: var(--page-titles);
+
+}
+.page_title {
+text-align: center;
+}
+h2 {}
 p {}
 
