@@ -49,9 +49,16 @@ h1{
     color: var(--page-titles); 
 
 }
-section
+section{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 5rem;
+}
+
 .page_title {
     text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem;
 }
 .title_card {
     margin-bottom: 0;
@@ -61,6 +68,10 @@ section
     margin-top: 0;
 }
 h2 {}
+
+.movie_craft p{
+
+}
 .stamping p {
 
 }
