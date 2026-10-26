@@ -28,17 +28,17 @@ body{
     background-color: var(--background-color);
     border: 1rem;
     margin: 1rem;
-    font-family: var(--filson-font);
+    font-family: var(--filson-font), Verdana, Tahoma, sans-serif;
 }
 .welcome {
     border: 1rem;
     margin: 1rem;
-    font-family: var(--tiffany-font);
+    font-family: var(--tiffany-font), Verdana, Tahoma, sans-serif;
     font-size: 1.5rem;
 }
 .store_name, h1{
     text-align: center;
-    font-family: var(--bagatela-font);
+    font-family: var(--bagatela-font), Verdana, Tahoma, sans-serif;
     font-size: 4rem;
 }
 h1{
@@ -70,7 +70,7 @@ section{
 
 .connect-list h3 {
     text-align: center;
-    font-family: var(--bagatela-font);
+    font-family: var(--bagatela-font), Verdana, Tahoma, sans-serif;
     font-size: 1.5rem;
 }
 .connect-list {
